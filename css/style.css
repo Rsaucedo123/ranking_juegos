@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 65px 0 0 0;
+    background-color:white;
+}
+section a  {
+    text-decoration: none;
+    color: white;
+}
+
+div{
+    margin: 0 0 20px 0;
+    padding: 30px;
+    width: 50%;
+    margin:auto;
+    margin-bottom: 15px;
+    transition: transform 0.5s;
+    text-align: center;
+    font-family: "Chela One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    border: black 5px solid;
+    border-radius: 25px;
+}
+
+  .uno{
+    background: #6699ff;
+  }
+  .dos{
+    background: #6699ff9f;
+  }
+  .tres{
+    background: #6699ff50;
+  }
+  
+div:hover{
+    transform: scale(1.05);
+    
+}
+@media only screen and (min-width: 768px){
+ div{
+  border: black 10px solid;
+ }
+  section{
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  div{
+    border: black 15px solid;
+   }
+  section{
+    margin-top: -34px;
+  }
+}

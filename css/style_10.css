@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:black;
+    font-family: "Chela One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav{
+    background-color:aliceblue;
+    padding: 8px;
+    margin-bottom: 30px;
+}
+nav a img{
+    height: 50px;
+}
+.contenedor{
+    margin: 0 0 0 5%;
+}
+
+.card{
+    --text-color: hsl(0, 0%, 97%);
+    border-radius: 10px;
+    margin:auto;
+    margin-top:25px;
+    box-shadow: 0 5px 15px rgba(48, 118, 239, 0.92);
+    transition: transform 0.5s;
+    transition: box-shadow 1s; 
+    width: 80%;
+    max-width: 345px;
+    padding: 10px 0 0 0;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    overflow: hidden;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 15px 15px 15px rgba(128, 128, 128, 0.677);
+}
+div .card img{
+    height:70px;
+    border-radius: 100px;
+    margin-left: 20px;
+}
+div .card img:hover{
+    height:70px;
+    border-radius: 100px;
+}
+
+.card-title {
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    margin-right: 40px;
+}
+
+.card h5 {
+    margin: 10px;
+}
+
+.card .pie {
+  background: #6699ff;
+  padding: 5px;
+  text-align:center;
+  flex-basis: 100%;
+}
+
+.pie p{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 25px;
+}
+
+
